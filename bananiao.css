@@ -1,0 +1,431 @@
+/*==========================================================
+    BANANIAO PS5 EDGE THEME
+    Compatible con GamepadViewer
+    Version: 1.0
+==========================================================*/
+
+/*==============================
+        CONTROLLER
+==============================*/
+
+.controller.ds4{
+    background:url(images/controller/Controller_Base.png) no-repeat;
+    width:1200px;
+    height:700px;
+    position:relative;
+}
+
+/*==============================
+      DISCONNECTED
+==============================*/
+
+.ds4.disconnected div{
+    display:none;
+}
+
+/*==============================
+          TRIGGERS
+==============================*/
+
+.ds4 .triggers{
+    position:absolute;
+    width:620px;
+    height:92px;
+
+    left:290px;
+    top:30px;
+}
+
+.ds4 .trigger{
+
+    width:102px;
+    height:92px;
+
+    background:url(images/triggers/Trigger_Pressed.png) no-repeat;
+
+    opacity:0;
+}
+
+.ds4 .trigger.left{
+    float:left;
+}
+
+.ds4 .trigger.right{
+
+    float:right;
+
+    background-position-x:102px;
+}
+
+.ds4 .trigger.pressed{
+    opacity:1;
+}
+
+/*==============================
+          BUMPERS
+==============================*/
+
+.ds4 .bumpers{
+
+    position:absolute;
+
+    width:690px;
+    height:36px;
+
+    left:255px;
+    top:118px;
+
+}
+
+.ds4 .bumper{
+
+    width:205px;
+    height:42px;
+
+    background:url(images/triggers/Bumper.png) no-repeat;
+
+    opacity:0;
+
+}
+
+.ds4 .bumper.left{
+    float:left;
+}
+
+.ds4 .bumper.right{
+
+    float:right;
+
+    transform:rotateY(180deg);
+
+}
+
+.ds4 .bumper.pressed{
+
+    opacity:1;
+
+}
+
+/*==============================
+          TOUCHPAD
+==============================*/
+
+.ds4 .touchpad{
+
+    position:absolute;
+
+    width:360px;
+    height:205px;
+
+    left:420px;
+    top:74px;
+
+}
+
+.ds4 .touchpad.pressed{
+
+    background:url(images/touchpad/Touchpad.png) no-repeat center;
+
+}
+
+/*==============================
+            HOME
+==============================*/
+
+.ds4 .meta{
+
+    position:absolute;
+
+    width:80px;
+    height:80px;
+
+    left:560px;
+    bottom:255px;
+
+}
+
+.ds4 .meta.pressed{
+
+    background:url(images/buttons/Home.png) no-repeat center;
+
+}
+
+/*==============================
+      START / SELECT
+==============================*/
+
+.ds4 .arrows{
+
+    position:absolute;
+
+    width:350px;
+    height:50px;
+
+    left:225px;
+    top:145px;
+
+}
+
+.ds4 .back,
+.ds4 .start{
+
+    width:32px;
+    height:32px;
+
+    opacity:0;
+
+}
+
+.ds4 .back{
+
+    position:absolute;
+
+    left:185px;
+    bottom:-35px;
+
+    background:url(images/buttons/Select.png) no-repeat;
+
+}
+
+.ds4 .start{
+
+    position:absolute;
+
+    left:545px;
+    bottom:-35px;
+
+    background:url(images/buttons/Start.png) no-repeat;
+
+}
+
+.ds4 .back.pressed,
+.ds4 .start.pressed{
+
+    opacity:1;
+
+}
+
+/*==============================
+        FACE BUTTONS
+==============================*/
+
+.ds4 .abxy{
+
+    position:absolute;
+
+    width:170px;
+    height:170px;
+
+    left:800px;
+    top:195px;
+
+}
+
+.ds4 .button{
+
+    width:56px;
+    height:56px;
+
+    background:url(images/buttons/FaceButtons.png) no-repeat;
+
+}
+
+.ds4 .button.pressed{
+
+    background-position-y:56px;
+
+}
+
+.ds4 .a{
+
+    left:58px;
+    bottom:0;
+
+    background-position:0 0;
+
+}
+
+.ds4 .b{
+
+    top:58px;
+    right:0;
+
+    background-position:-56px 0;
+
+}
+
+.ds4 .x{
+
+    top:58px;
+    left:0;
+
+    background-position:-112px 0;
+
+}
+
+.ds4 .y{
+
+    left:58px;
+    top:0;
+
+    background-position:-168px 0;
+
+}
+
+/*==============================
+          DPAD
+==============================*/
+
+.ds4 .dpad{
+
+    position:absolute;
+
+    width:128px;
+    height:128px;
+
+    left:255px;
+    top:220px;
+
+}
+
+.ds4 .face{
+
+    background:url(images/buttons/DPad.png) no-repeat;
+
+}
+
+.ds4 .face.up{
+
+    width:40px;
+    height:54px;
+
+    left:44px;
+    top:0;
+
+}
+
+.ds4 .face.down{
+
+    width:40px;
+    height:54px;
+
+    left:44px;
+    bottom:0;
+
+}
+
+.ds4 .face.left{
+
+    width:54px;
+    height:40px;
+
+    top:44px;
+    left:0;
+
+}
+
+.ds4 .face.right{
+
+    width:54px;
+    height:40px;
+
+    top:44px;
+    right:0;
+
+}
+
+/*==============================
+          STICKS
+==============================*/
+
+.ds4 .sticks{
+
+    position:absolute;
+
+    width:380px;
+    height:120px;
+
+    left:420px;
+    top:355px;
+
+}
+
+.ds4 .stick{
+
+    width:96px;
+    height:96px;
+
+    position:absolute;
+
+    background:url(images/sticks/Sticks.png);
+
+}
+
+.ds4 .stick.left{
+
+    left:0;
+    top:0;
+
+}
+
+.ds4 .stick.right{
+
+    right:0;
+    bottom:0;
+
+}
+
+.ds4 .stick.pressed.left{
+
+    background-position-x:-96px;
+
+}
+
+.ds4 .stick.pressed.right{
+
+    background-position-x:-192px;
+
+}
+
+/*==============================
+          DUALSENSE EDGE
+==============================*/
+
+.ds4 .fn-left,
+.ds4 .fn-right{
+
+    position:absolute;
+
+    width:34px;
+    height:34px;
+
+    background:url(images/buttons/FN.png);
+
+    opacity:0;
+
+}
+
+.ds4 .fn-left{
+
+    left:475px;
+    top:260px;
+
+}
+
+.ds4 .fn-right{
+
+    left:690px;
+    top:260px;
+
+}
+
+.ds4 .fn-left.pressed,
+.ds4 .fn-right.pressed{
+
+    opacity:1;
+
+}
+
+/*==============================
+            END
+==============================*/
