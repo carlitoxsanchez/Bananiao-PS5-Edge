@@ -183,21 +183,17 @@ background-position: 0 -70px;
 
 .ds4 .sticks {
     position: absolute;
-    width: 330px;
-    height: 100px;
-
-    top: 305px;
-    left: 438px;
+    width: 364px;
+    height: 105px;
+    top: 348px;
+    left: 422px;
 }
 
 .ds4 .stick {
-    position:absolute;
-
-    width:78px;
-    height:78px;
-
-    background:url(Sticks.png) no-repeat;
-    background-size:234px 78px;
+    position: absolute;
+    background: url(Sticks.png);
+    height: 94px;
+    width: 94px;
 }
 
 .ds4 .stick.pressed.left {
